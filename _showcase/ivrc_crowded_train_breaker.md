@@ -21,6 +21,9 @@ date: 2025-09-01
       <div class="carousel-item active">
         <img src="{{ '/assets/images/img1.JPEG' | relative_url }}" class="d-block w-100" style="max-height: 500px; object-fit: cover;">
       </div>
+        <div class="carousel-item">
+        <img src="{{ '/assets/images/img1_2.JPEG' | relative_url }}" class="d-block w-100" style="max-height: 500px; object-fit: cover;">
+      </div>
       <div class="carousel-item">
         <img src="{{ '/assets/images/img2.JPEG' | relative_url }}" class="d-block w-100" style="max-height: 500px; object-fit: cover;">
       </div>
