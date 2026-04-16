@@ -3,11 +3,12 @@ title: "Capturing Poetic Essence: Text Summarization and Visual Generation via M
 collection: publications
 category: journals
 year: 2025
+date: 2025-01-01
 authors: "Junaid Yousaf, Mazhar Iqbal, Iqra Pervaiz, Muhammad Ismail, Toqeer Ul Islam, Khurram Khan Jadoon"
-venue: "ICCK Transactions on Intelligent Systematics, 2(3), 160–168"
+venue: "ICCK Transactions on Intelligent Systematics"
 status: "Published"
 teaser: "/assets/images/capture.png"
-excerpt: "A multimodal framework that combines abstractive text summarization (BART, T5) with diffusion-based image generation to capture and visualize the semantic essence of poetry."
+excerpt: "A multimodal framework that integrates transformer-based summarization (BART, T5) with diffusion models to generate concise interpretations of poetry and translate them into visually coherent representations."
 selected: true
 links:
   DOI: "https://doi.org/10.62762/TIS.2025.405393"
