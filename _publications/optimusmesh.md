@@ -8,4 +8,5 @@ venue: "European Conference on Computer Vision (ECCV) 2026"
 status: "Under Review"
 teaser: "/assets/images/fig1.png"
 excerpt: "Autoregressive framework for generating compact and high-quality triangle meshes from point clouds using sparse latent pivots and transformer-based decoding."
+selected: true
 ---
