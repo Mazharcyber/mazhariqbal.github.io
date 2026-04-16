@@ -19,26 +19,24 @@ date: 2025-09-01
 
     <div class="carousel-inner rounded">
       <div class="carousel-item active">
-        <img src="/assets/images/img1.jpeg" class="d-block w-100" alt="IVRC image 1" style="max-height: 500px; object-fit: cover;">
+        <img src="{{ '/assets/images/img1.jpeg' | relative_url }}" class="d-block w-100" style="max-height: 500px; object-fit: cover;">
       </div>
       <div class="carousel-item">
-        <img src="/assets/images/img2.jpeg" class="d-block w-100" alt="IVRC image 2" style="max-height: 500px; object-fit: cover;">
+        <img src="{{ '/assets/images/img2.jpeg' | relative_url }}" class="d-block w-100" style="max-height: 500px; object-fit: cover;">
       </div>
       <div class="carousel-item">
-        <img src="/assets/images/img3.jpeg" class="d-block w-100" alt="IVRC image 3" style="max-height: 500px; object-fit: cover;">
+        <img src="{{ '/assets/images/img3.jpeg' | relative_url }}" class="d-block w-100" style="max-height: 500px; object-fit: cover;">
       </div>
       <div class="carousel-item">
-        <img src="/assets/images/img4.jpeg" class="d-block w-100" alt="IVRC image 4" style="max-height: 500px; object-fit: cover;">
+        <img src="{{ '/assets/images/img4.jpeg' | relative_url }}" class="d-block w-100" style="max-height: 500px; object-fit: cover;">
       </div>
     </div>
 
     <a class="carousel-control-prev" href="#ivrcCarousel" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
+      <span class="carousel-control-prev-icon"></span>
     </a>
     <a class="carousel-control-next" href="#ivrcCarousel" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
+      <span class="carousel-control-next-icon"></span>
     </a>
   </div>
 
@@ -53,8 +51,7 @@ date: 2025-09-01
   <p>
     Worked as part of an 8-member team, contributing to both software and hardware development
     for an interactive virtual reality system. The project was presented at the
-    <strong>Virtual Reality Society of Japan Conference</strong>, demonstrating an immersive
-    experience inspired by real-world crowded train scenarios.
+    <strong>Virtual Reality Society of Japan Conference</strong>.
   </p>
 
   <p>
