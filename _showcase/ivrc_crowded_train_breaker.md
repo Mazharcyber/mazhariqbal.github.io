@@ -10,37 +10,49 @@ date: 2025-09-01
   <h3 class="mb-3">Crowded Train Breaker</h3>
 
   <div id="ivrcCarousel" class="carousel slide mb-4" data-ride="carousel">
+
+    <!-- Indicators -->
     <ol class="carousel-indicators">
       <li data-target="#ivrcCarousel" data-slide-to="0" class="active"></li>
       <li data-target="#ivrcCarousel" data-slide-to="1"></li>
       <li data-target="#ivrcCarousel" data-slide-to="2"></li>
       <li data-target="#ivrcCarousel" data-slide-to="3"></li>
+      <li data-target="#ivrcCarousel" data-slide-to="4"></li>
     </ol>
 
+    <!-- Images -->
     <div class="carousel-inner rounded">
+      
       <div class="carousel-item active">
         <img src="{{ '/assets/images/img1.JPEG' | relative_url }}" class="d-block w-100" style="max-height: 500px; object-fit: cover;">
       </div>
-        <div class="carousel-item">
+
+      <div class="carousel-item">
         <img src="{{ '/assets/images/img1_2.JPEG' | relative_url }}" class="d-block w-100" style="max-height: 500px; object-fit: cover;">
       </div>
+
       <div class="carousel-item">
         <img src="{{ '/assets/images/img2.JPEG' | relative_url }}" class="d-block w-100" style="max-height: 500px; object-fit: cover;">
       </div>
+
       <div class="carousel-item">
         <img src="{{ '/assets/images/img3.JPEG' | relative_url }}" class="d-block w-100" style="max-height: 500px; object-fit: cover;">
       </div>
+
       <div class="carousel-item">
         <img src="{{ '/assets/images/img4.JPEG' | relative_url }}" class="d-block w-100" style="max-height: 500px; object-fit: cover;">
       </div>
+
     </div>
 
+    <!-- Controls -->
     <a class="carousel-control-prev" href="#ivrcCarousel" role="button" data-slide="prev">
       <span class="carousel-control-prev-icon"></span>
     </a>
     <a class="carousel-control-next" href="#ivrcCarousel" role="button" data-slide="next">
       <span class="carousel-control-next-icon"></span>
     </a>
+
   </div>
 
   <p><strong>Interverse Virtual Reality Challenge (IVRC 2025), Japan</strong></p>
@@ -54,7 +66,8 @@ date: 2025-09-01
   <p>
     Worked as part of an 8-member team, contributing to both software and hardware development
     for an interactive virtual reality system. The project was presented at the
-    <strong>Virtual Reality Society of Japan Conference</strong>.
+    <strong>Virtual Reality Society of Japan Conference</strong>, demonstrating an immersive
+    system inspired by real-world crowded train scenarios.
   </p>
 
   <p>
