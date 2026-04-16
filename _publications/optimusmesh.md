@@ -6,8 +6,6 @@ year: 2026
 authors: "Mazhar Iqbal, Naoya Chiba, Xuanmeng Sha, Tomohiro Mashita, Yuki Uranishi"
 venue: "European Conference on Computer Vision (ECCV) 2026"
 status: "Under Review"
+teaser: "/assets/images/fig1.png"
+excerpt: "Autoregressive framework for generating compact and high-quality triangle meshes from point clouds using sparse latent pivots and transformer-based decoding."
 ---
-
-![Teaser](/assets/images/fig1.png)
-
-Autoregressive framework for generating compact and high-quality triangle meshes from point clouds using sparse latent pivots and transformer-based decoding.
