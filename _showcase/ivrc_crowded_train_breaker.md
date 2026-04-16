@@ -1,21 +1,69 @@
 ---
 title: "Crowded Train Breaker"
-collection: showcase
-category: projects
-year: 2025
+show: true
+group: "Featured Projects"
+width: 12
 date: 2025-09-01
 ---
 
-![Teaser](/assets/images/ivrc.png)
+<div class="card-body">
+  <h3 class="mb-3">Crowded Train Breaker</h3>
 
-**Interverse Virtual Reality Challenge (IVRC 2025), Japan**
+  <div id="ivrcCarousel" class="carousel slide mb-4" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#ivrcCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#ivrcCarousel" data-slide-to="1"></li>
+      <li data-target="#ivrcCarousel" data-slide-to="2"></li>
+      <li data-target="#ivrcCarousel" data-slide-to="3"></li>
+    </ol>
 
-Participated in IVRC 2025 with the project *"Crowded Train Breaker"*, representing the Graduate School of Information Science and Technology, The University of Osaka. The project successfully advanced to the **SEED STAGE**.
+    <div class="carousel-inner rounded">
+      <div class="carousel-item active">
+        <img src="/assets/images/img1.jpeg" class="d-block w-100" alt="IVRC image 1" style="max-height: 500px; object-fit: cover;">
+      </div>
+      <div class="carousel-item">
+        <img src="/assets/images/img2.jpeg" class="d-block w-100" alt="IVRC image 2" style="max-height: 500px; object-fit: cover;">
+      </div>
+      <div class="carousel-item">
+        <img src="/assets/images/img3.jpeg" class="d-block w-100" alt="IVRC image 3" style="max-height: 500px; object-fit: cover;">
+      </div>
+      <div class="carousel-item">
+        <img src="/assets/images/img4.jpeg" class="d-block w-100" alt="IVRC image 4" style="max-height: 500px; object-fit: cover;">
+      </div>
+    </div>
 
-Worked as part of an 8-member team, contributing to both software and hardware development for an interactive virtual reality system. The project was presented at the **Virtual Reality Society of Japan Conference**, demonstrating a novel immersive experience addressing real-world crowded train scenarios.
+    <a class="carousel-control-prev" href="#ivrcCarousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#ivrcCarousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
 
-**Development Period:** April 2025 – December 2025  
+  <p><strong>Interverse Virtual Reality Challenge (IVRC 2025), Japan</strong></p>
 
-**Links:**  
-- [IVRC Official Release](https://ivrc.net/2025/release1/)  
-- [IVRC Seed Stage](https://ivrc.net/2025/seed-stage/)
+  <p>
+    Participated in IVRC 2025 with the project <em>"Crowded Train Breaker"</em>, representing
+    the Graduate School of Information Science and Technology, The University of Osaka.
+    The project successfully advanced to the <strong>SEED STAGE</strong>.
+  </p>
+
+  <p>
+    Worked as part of an 8-member team, contributing to both software and hardware development
+    for an interactive virtual reality system. The project was presented at the
+    <strong>Virtual Reality Society of Japan Conference</strong>, demonstrating an immersive
+    experience inspired by real-world crowded train scenarios.
+  </p>
+
+  <p>
+    <strong>Development Period:</strong> April 2025 – December 2025
+  </p>
+
+  <p class="mb-0">
+    <a href="https://ivrc.net/2025/release1/" target="_blank">IVRC Official Release</a>
+    &nbsp;|&nbsp;
+    <a href="https://ivrc.net/2025/seed-stage/" target="_blank">IVRC Seed Stage</a>
+  </p>
+</div>
